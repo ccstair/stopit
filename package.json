@@ -1,0 +1,24 @@
+{
+  "name": "stopit",
+  "version": "1.0.0",
+  "description": "An app to help people stop doing unwanted behaviors",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "behavior",
+    "modification",
+    "self-help",
+    "vue"
+  ],
+  "author": "Nick Butkowski and Chris Stair",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node": "0.0.0",
+    "vue": "^2.3.0"
+  }
+}
