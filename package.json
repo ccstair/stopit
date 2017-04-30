@@ -4,7 +4,9 @@
   "description": "An app to help people stop doing unwanted behaviors",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack",
+    "webpack:watch": "webpack --watch"
   },
   "keywords": [
     "data",
@@ -17,8 +19,21 @@
   "author": "Nick Butkowski and Chris Stair",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.48.0",
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.2",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-stage-0": "^6.1.2",
+    "babel-runtime": "^5.8.0",
+    "css-loader": "^0.23.0",
+    "style-loader": "^0.13.0",
+    "vue-loader": "^7.3.0",
+    "vue-html-loader": "^1.0.0",
     "express": "^4.15.2",
     "node": "0.0.0",
-    "vue": "^2.3.0"
+    "vue": "^2.3.0",
+    "vue-router": "^2.5.2",
+    "webpack": "^1.12.2"
   }
 }
